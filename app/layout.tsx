@@ -15,7 +15,7 @@ const robotoMono = Roboto_Mono({
 
 export const metadata: Metadata = {
     title: "RepairCafé Schoten",
-    description: "Komen gratis je defecte spullen herstellen in Haarlem Schoten",
+    description: "Gratis samen je defecte spullen repareren in Haarlem Schoten",
 };
 
 export default function RootLayout({
