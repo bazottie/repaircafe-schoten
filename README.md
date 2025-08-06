@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Wat is een RepairCafé?
+RepairCafés zijn gratis toegankelijke bijeenkomsten die draaien om samen met een deskundige reparaties uit te voeren.
+Je kunt er terecht met defecte apparaten, fietsen en kledingstukken.
+Op de locatie is gereeschap aanwezig en zijn er technische vrijwilligers met reparatiekennis en vaardigheden.
 
-## Getting Started
+## Samen ga je aan de slag
+Er wordt een diagnose gesteld en daar waar mogelijk wordt het defect gratis gerepareerd.
+Let wel, onderdelen zijn niet aanwezig, daar dien je zelf achteraan te gaan.
+Is bijvoorbeeld de steker defect, dan koop je zelf de stekker en die kan in het RepairCafé gratis gemonteerd worden.
+Ook kleine fietsreparaties maken onderdeel uit van het RepairCafé.
 
-First, run the development server:
+## Wat kan er o.a. langskomen aan defecte apparaten in het RepairCafé?
+- Verlichting
+- Kookplaatjes
+- Kleine ovens
+- Tost apparaten
+- Mixers
+- Elektrisch gereedschap
+- Speelgoed
+- Broodroosters
+- Stofzuigers
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+__Heb je kennis van computers, laptops, smartphones en tablets en wil je eenmaal per maand enkele uren iets doen voor de wijk?
+Meld je dan aan bij repair.schoten@gmail.com__
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Op zaterdag 27 september 2025 opent het RepairCafé in Schoten voor het eerst haar deuren van 10:00 tot 12:00 uur in de Shelter Kerk aan de Eksterlaan 1.
+Daarna ben je elke vierde zaterdag van de maand welkom om kapotte spullen samen met vrijwilligers te repareren.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+_Let op: in december wijkt de locatie en tijd af.
+Dan vint het RepairCafé eenmaal plaats op maandag 9 december van 19:30 tot 21:30 uur in de bibliotheek aan de Planetenlaan._
