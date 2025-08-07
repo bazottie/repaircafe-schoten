@@ -7,7 +7,7 @@ import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, For
 import { Input } from "@/components/ui/input"
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { HTMLAttributes, PropsWithChildren, useState } from 'react';
+import { HTMLAttributes, useState } from 'react';
 import { sendEmail } from '@/app/contact/action';
 import { cn } from '@/lib/utils';
 
@@ -23,11 +23,11 @@ export const contactFormSchema = z.object({
     })
 })
 
-interface Props extends PropsWithChildren<HTMLAttributes<HTMLFormElement>> {
+interface Props extends HTMLAttributes<HTMLFormElement> {
 
 }
 
-export function ContactForm({ children, ...props }: Props) {
+export function ContactForm({ ...props }: Props) {
     const [isPending, setIsPending] = useState(false)
     const [success, setSuccess] = useState(false)
     const [failed, setFailed] = useState(false)
