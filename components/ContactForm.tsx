@@ -23,9 +23,7 @@ export const contactFormSchema = z.object({
     })
 })
 
-interface Props extends HTMLAttributes<HTMLFormElement> {
-
-}
+type Props = HTMLAttributes<HTMLFormElement>
 
 export function ContactForm({ ...props }: Props) {
     const [isPending, setIsPending] = useState(false)
