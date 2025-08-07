@@ -2,7 +2,6 @@
 import React, { useEffect, useRef } from 'react';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import style from "@/assets/map-style.json?url"
 import { buttonVariants } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
@@ -29,7 +28,7 @@ export const MapLocation: React.FC<MapLocationProps> = ({
     if (mapContainer.current && !mapRef.current) {
       mapRef.current = new maplibregl.Map({
         container: mapContainer.current,
-        style,
+        style: '/map-style.json',
         center: [lng, lat],
         zoom,
         attributionControl: false,

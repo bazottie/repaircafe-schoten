@@ -1,6 +1,7 @@
 interface EmailTemplateProps {
     name: string;
     message: string;
+    mailto: string;
 }
 
 export function EmailTemplate({ name, message, mailto }: EmailTemplateProps) {
