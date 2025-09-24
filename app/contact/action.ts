@@ -10,7 +10,7 @@ export async function sendEmail({name, email, message}: z.infer<typeof contactFo
     console.log({ name, email, message });
     try {
         const { data, error } = await resend.emails.send({
-            from: `${name} <onboarding@resend.dev>`,
+            from: `${name} <noreply@repaircafe-schoten.nl>`,
             to: ['repair.schoten@gmail.com'],
             subject: `${name} via contactformulier`,
             react: EmailTemplate({ name, message, mailto: email }),
