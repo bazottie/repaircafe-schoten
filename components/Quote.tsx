@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function Quote({ name, quote }: { name: 'mevrouw', quote: string }) {
 	return (
-		<blockquote className="flex gap-4 border-none items-center flex-col md:flex-row">
+		<div className="flex gap-4 items-center flex-col md:flex-row">
 			<Image
 				className="aspect-square rounded-full not-prose"
 				height={ 150 }
@@ -12,7 +12,7 @@ export function Quote({ name, quote }: { name: 'mevrouw', quote: string }) {
 				src={ mevrouw }
 				loading="lazy"
 			/>
-			<span>&quot;{ quote }&quot;</span>
-		</blockquote>
+			<blockquote className="border-orange-500">&quot;{ quote }&quot;</blockquote>
+		</div>
 	)
 }
